@@ -222,7 +222,7 @@ body{
     text-decoration: none;
 
 }
-.user-profile img{
+.user-profile a img{
     width: 50px;
     height: 50px;
 }
@@ -318,7 +318,7 @@ body{
     background: #fff;
     border-radius: 6px;
     padding: 20px;
-    color: #626262;
+    color: #000000;
     margin: 20px 0;
 }
 .post-row{
@@ -361,6 +361,29 @@ body{
     padding-bottom: 10px;
     cursor: pointer;
 }
+.post-profile img{
+    width: 173px;
+    height: 127px;
+ }
+ .post-profile{
+     display: flex;
+ }
+ .post-profile p{
+     margin-bottom: -5px;
+     font-weight: 600;
+     font-size: 20px;
+     padding-left: 10px;
+ }
+ .post-profile span{
+     font-size: 15px;
+     color: #000000;
+     padding-left: 10px;
+     cursor: pointer;
+ }
+ .post-link a{
+     text-decoration: none;
+     padding-left: 220px;
+ }
 
 
 
