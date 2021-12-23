@@ -249,24 +249,31 @@ body{
     resize: none;
     
 }
-.buttom{
+.button{
     color: #fff;
     padding: 0px 4px;
-    min-height: 30px;
+    min-height: 40px;
     align-items: flex-end;
     background-color: #24a8d8;
     display: flex;
     position: relative;
     padding-left: 20px;
+    border-top-right-radius: 5px; 
+    border-top-left-radius: 5px;
+
 }
 .new{
-    border-radius: 0px;
+    padding: 3px 3px ;
     background: #fff;
     color: rgba(0, 0, 0, 0.87);
     font-weight: 600;
+    border-top-right-radius: 5px; 
+    border-top-left-radius: 5px;
+
 }
 .share{
-    padding-left: 10px;
+    font-weight: 600;
+    padding: 3px 10px ;
     cursor: pointer;
 }
 .add-post-links{
@@ -384,6 +391,15 @@ body{
      text-decoration: none;
      padding-left: 220px;
  }
+ .Load-btn{
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    background: transparent;
+    border-radius: 4px;
+}
 
 
 
