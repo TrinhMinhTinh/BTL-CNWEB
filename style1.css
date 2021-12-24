@@ -60,13 +60,19 @@ body{
     display: flex;
     padding-top: 15px;
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
+    padding-left: 200px;
 }
 .header_icon {
     padding: 0 20px;
     text-align: center;
 }
-
+.header_icon i:hover{
+    color:#24a8d8;
+}
+.header_menu a:hover{
+    color: #24a8d8;
+}
 .header_icon i {
     font-size: 20px;
     color: #000;
@@ -97,12 +103,10 @@ body{
 .container{
     display:flex ;
     justify-content: space-between;
-    padding: 13px 5%;
-    padding: 5px 5%;
+    padding-top: 95px;
     position: sticky;
-    top: 0;
     z-index: 100;
-    margin: 100px;
+    margin: auto;
 }
 .left-sidebar{
     flex-basis: 23%;
@@ -112,7 +116,7 @@ body{
     background: #fff;
     border-radius: 1%;
     padding-top: 9px;
-    height: 500px;
+    height: 100%;
     overflow-y: scroll;
     
 }
@@ -137,7 +141,7 @@ body{
     background: #fff;
     padding: 20px;
     border-radius: 4px;
-    height: 500px;
+    height: 100%;
     overflow-y: scroll;
 }
 
@@ -163,7 +167,7 @@ body{
     display: flex;
     align-items: center;
     margin-bottom: 25px;
-    color: #202020;
+    color: #000000;
     width: fit-content;
     padding-left: 15px;
 }
