@@ -1,11 +1,23 @@
 :root{
-    --text-color:#03030303;
-    --color-icon:#606060;
-    --primary-color:#fff;
+    --body-color: #efefef;
+    --main-color: #1876f2;
+    --bg-color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppin', sans-serif;
+    box-sizing: border-box;
+}
+.dark-theme{
+    --body-color: #000;
+    --main-color: #000;
+    --bg-color:rgb(141, 141, 141);
 }
 body{
     height: 200vh;
-    background: #e6e6e9;
+    background: var(--body-color);
+    transition: backgroud 0.3s;
 }
 .active {
     color: #4ab7df;
@@ -61,7 +73,7 @@ body{
     padding-top: 15px;
     list-style: none;
     margin: 0 auto;
-    padding-left: 200px;
+    padding-left: 250px;
 }
 .header_icon {
     padding: 0 20px;
@@ -82,9 +94,10 @@ body{
     color: #000;
 }
 
-.header_auth {
+.header_right {
     display: flex;
     padding: 0 25px;
+    padding-left: 50px;
 }
 
 .btn i {
@@ -93,6 +106,7 @@ body{
 
 .login {
     padding-left: 5px;
+    cursor: pointer;
 }
 
 .image_login{
@@ -260,7 +274,7 @@ body{
 }
 .user-profile textarea{ 
     width: 100%;
-    margin: 5px;
+    margin: 10px;
     padding-left: 5px;
     border: 0;
     outline: 0;
@@ -287,6 +301,7 @@ body{
     background: #fff;
     color: rgba(0, 0, 0, 0.87);
     font-weight: 600;
+    cursor: pointer;
     border-top-right-radius: 5px; 
     border-top-left-radius: 5px;
 
@@ -421,6 +436,71 @@ body{
     color: #626262;
     background: transparent;
     border-radius: 4px;
+}
+.settings-header{
+    position: absolute;
+    width: 90%;
+    max-width: 300px;
+    height: 400px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 80px;
+    right: 4%;
+    max-height: 0;
+    transition: max-height 0.3s;
+}
+.settings-header-height{
+    max-height: 450px;
+}
+.user-name{
+    padding-top: 10px;
+}
+.setting-link{
+    display: flex;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.setting-link p{
+    font-weight: 500;
+    color: #000000;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.setting-link a i{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #202020;
+    width: fit-content;
+    padding-left: 15px;
+    padding-top: 5px;
+}   
+.setting-link{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+#dark-btn{
+    background: #ccc;
+    width: 45px;
+    border-radius: 15px;
+    padding: 2px 3px;
+    cursor: pointer;
+    display: flex;
+    transition: padding-left 0.5s, background 0.5s;
+}
+#dark-btn span{
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+#dark-btn.dark-btn-on{
+    padding-left: 23px;
+    background: #000;
 }
 
 
