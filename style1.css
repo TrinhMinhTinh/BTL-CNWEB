@@ -441,7 +441,7 @@ body{
     position: absolute;
     width: 90%;
     max-width: 300px;
-    height: 400px;
+    height: 500px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     border-radius: 4px;
@@ -501,6 +501,40 @@ body{
 #dark-btn.dark-btn-on{
     padding-left: 23px;
     background: #000;
+}
+.copyright__list{
+    display: flex;
+    padding: 0px;
+}
+.copyright{
+    padding: 14px 24px;
+}
+.copyright__list-item{
+    list-style: none;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+.copyright__list-item a{
+    text-decoration: none;
+    color: #161616;
+    font-weight: 550;
+    font-size: 15px;
+}
+.copyright--text{
+    margin: 12px 0px 50px 0px;
+    display: block;
+    color: #909090;
+    font-size: 14px;
+    padding-left: 3px;
+}
+.settings-hr a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000;
+}
+.settings-hr i {
+    margin-left: 30px;
+    cursor: pointer;
 }
 
 
