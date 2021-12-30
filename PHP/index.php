@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="CSS/style1.css">
 </head>
 
 <body>
@@ -107,7 +107,7 @@
             </div>
             <div class="settings-header">
                 <div class="user-profile">
-                    <a href="#"><img src="image/login.jpg"></a>
+                    <a href="user.php"><img src="image/login.jpg"></a>
                     <p class="user-name">Hồ sơ của bạn</p>
                 </div>
                 <div class="setting-link">
