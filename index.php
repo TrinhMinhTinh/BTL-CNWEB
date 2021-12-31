@@ -350,10 +350,10 @@
             </div>
             <div class="sidebar_trainghiem">
                 <div class="sidebar_picture">
-                    <a href="#"><img src="image/anh3.jpg"</a>
+                    <a href="#"><img src="image/anh3.jpg"></a>
                 </div>
             </div>
-            <div class="sidebar_titlle">
+            <div class="sidebar_title">
                 <div class="sidebar-h4">
                     <h4>Trải nghiệm nổi bật </h4>
                     <a href="#">Xem Tất cả</a>

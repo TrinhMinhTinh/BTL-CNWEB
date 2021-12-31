@@ -1,5 +1,5 @@
 :root{
-    --body-color: #efefef;
+    --body-color: #d4d4d4;
     --main-color: #1876f2;
     --bg-color: #fff;
 }
@@ -10,9 +10,9 @@
     box-sizing: border-box;
 }
 .dark-theme{
-    --body-color: #000;
+    --body-color: #0a0a0a;
     --main-color: #000;
-    --bg-color:rgb(141, 141, 141);
+    --bg-color:#000;
 }
 body{
     height: 200vh;
@@ -218,8 +218,8 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 45%;
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 18px;
 }
 .left_trainghiem a img{
     width: 100%;
@@ -233,7 +233,7 @@ body{
     background: rgb(255,254,252);
     border-radius: 5px;
     font-size: 20px;
-    height: 45%;
+    height: 45vh;
 }
 .sidebar-h4 {
     display: flex;
@@ -273,13 +273,6 @@ body{
     padding-left: 5px;
     text-decoration: none;
     top:50px;
-
-}
-.img-voucher{
-    width: 95%;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    cursor: pointer;
 }
 .copyright{
     padding-left: 30px;
@@ -453,11 +446,10 @@ body{
     padding-left: 2px;
 }
 .img-voucher{
-    width: 100%;
+    width: 95%;
     padding-bottom: 10px;
-    cursor: pointer;
-    border-radius: 2%;
-    
+    padding-left: 10px;
+    cursor: pointer;  
 }
 .post-profile img{
     width: 173px;
@@ -537,6 +529,9 @@ body{
     margin: 15px 0;
 }
 #dark-btn{
+    position:absolute;
+    top: 258px;
+    right: 30px;
     background: #ccc;
     width: 45px;
     border-radius: 15px;
@@ -561,7 +556,15 @@ body{
     padding: 0px;
 }
 .copyright{
-    padding: 14px 24px;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding-top: 10px;
+    background: rgb(255, 254, 252);
+    border-radius: 5px;
+    font-size: 20px;
+
 }
 .copyright__list-item{
     list-style: none;
