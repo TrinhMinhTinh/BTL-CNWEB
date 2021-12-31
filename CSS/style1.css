@@ -123,16 +123,9 @@ body{
     margin: auto;
 }
 .left-sidebar{
-    flex-basis: 23%;
-    position: sticky;
-    top: 70px;
-    align-self: flex-start;
-    background: #fff;
-    border-radius: 1%;
-    padding-top: 9px;
-    height: 100%;
-    overflow-y: scroll;
-    
+   flex-basis: 25%;
+   overflow: scroll;
+   height: 100%;
 }
 .left-sidebar::-webkit-scrollbar{
     width: 8px;
@@ -149,15 +142,20 @@ body{
 }
 .right-sidebar{
     flex-basis: 25%;
-    position: sticky;
-    top: 70px;
-    align-self: flex-start;
-    background: #fff;
-    padding: 20px;
-    border-radius: 4px;
+    overflow: scroll;
     height: 100%;
-    overflow-y: scroll;
 }
+.sidebar_picture {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+.sidebar_picture a img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}   
 
 .right-sidebar::-webkit-scrollbar{
     width: 8px;
@@ -174,63 +172,99 @@ body{
 }
 
 .main-content{
-    flex-basis: 47%;
+    flex-basis: 47%
 }
+.main_image{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding-top: 10px;
+    background: rgb(255,254,252);
+    border-radius: 5px;
+    font-size: 20px;
+    height: 73vh;
+
+}
+
 .main_image a{
     text-decoration: none;
     display: flex;
     align-items: center;
     margin-bottom: 25px;
-    color: #000000;
+    color: #202020;
     width: fit-content;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 .main_image a i{
     width: 25px;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 .main_image a img{
     padding-right: 15px;
 }
+.main_image2{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    font-size: 20px;
+
+}
 .main_image2 a img{
     width: 100%;
     height: 200px;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 .sidebar_trainghiem{
-    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45%;
     font-size: 14px;
     margin-bottom: 20px;
 }
 .left_trainghiem a img{
     width: 100%;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 .sidebar_title{
-    display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 18px;
     padding-top: 10px;
+    background: rgb(255,254,252);
+    border-radius: 5px;
+    font-size: 20px;
+    height: 45%;
 }
-.sidebar_title h4{
+.sidebar-h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding-top:10px;
+}
+.sidebar-h4 h4{
     font-weight: 600;
     font-size: 16px;
     padding-top: 9px;
+    padding-left: 10px;
 }
-.sidebar_title a{
+.sidebar-h4 a{
     text-decoration: none;
-    color: #1876f2;
+    color:#1876f2;
     font-size: 15px;
+    padding-right: 20px;
 }
 .image_sidebar{
     display: flex;
+    align-items: center;
     font-size: 14px;
     margin-bottom: 20px; 
+    top:20px;
 }
 .img{
     width: 50px;
     height: 40px;  
+    padding-left: 5px;
 }
 .image_sidebar a{
     margin-bottom: -5px;
@@ -238,24 +272,44 @@ body{
     color: #000000;
     padding-left: 5px;
     text-decoration: none;
+    top:50px;
 
 }
-.footer{
-    width: 100%;
+.img-voucher{
+    width: 95%;
     padding-bottom: 10px;
+    padding-left: 10px;
     cursor: pointer;
-    height: 130px;
-    border-radius: 2%; 
 }
-.footer li{
-    flex-wrap: nowrap;
-    box-sizing: border-box;
-    display: flex;
-    word-break: break-word;
+.copyright{
+    padding-left: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding-top: 10px;
+    background: rgb(255,254,252);
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.copyright__list-item{
+    list-style: none;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+.copyright__list-item a{
+    text-decoration: none;
+    color: #161616;
     font-size: 15px;
-
+    font-weight: 550;
 }
-
+.copyright--text {
+    margin:12px 0px 50px 0px;
+    display: block;
+    color:#909090;
+    font-size: 14px;
+    padding-left: 3px;
+}
 .user-profile a img{
     width: 50px;
     height: 50px;
