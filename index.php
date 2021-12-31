@@ -109,6 +109,7 @@
                 <div class="user-profile">
                     <a href="user.php"><img src="image/login.jpg"></a>
                     <p class="user-name">Hồ sơ của bạn</p>
+                    
                 </div>
                 <div class="setting-link">
                     <a href="#" class="text-decoration-none link-primary"><i class="fas fa-book"></i></a>
@@ -401,7 +402,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="JS/script.js"></script>
 </body>
 
 </html>
