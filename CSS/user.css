@@ -6,7 +6,9 @@ body {
     padding: 3rem !important;
     margin-left: 200px
 }
-
+.card{
+    margin-top: 100px;
+}
 .card-img-top {
     height: 300px
 }

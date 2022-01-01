@@ -19,7 +19,7 @@
             <div class="col-md-12 header">
                 <div class="header_logo">
                     <a href="index.php">
-                    <img src="image/logo.png" alt="" class="image_logohahalolo"></a>
+                    <img src="image/logo.jpg" alt="" class="image_logohahalolo"></a>
                     <div class="header_search">
                         <input type="text" class="header_input" placeholder="Tìm kiếm">
                         <i class="fas fa-search"></i>
@@ -108,7 +108,7 @@
             <div class="settings-header">
                 <div class="user-profile">
                     <a href="user.php"><img src="image/login.jpg"></a>
-                    <p class="user-name">Hồ sơ của bạn</p>
+                    <a href = "user.php" style = "text-decoration:none;"><p class="user-name">Hồ sơ của bạn</p></a>
                     
                 </div>
                 <div class="setting-link">
@@ -150,7 +150,7 @@
         <!--Thân trái-->
         <div class="left-sidebar">
             <div class="main_image">
-                <a href="#"><img src="image/login.jpg" alt=""><h5>Hồ sơ của bạn</h5></a>
+                <a href="user.php"><img src="image/login.jpg" alt=""><h5>Hồ sơ của bạn</h5></a>
                 <a href="#"><i class="fas fa-coins"></i>Đồng xu</a>
                 <a href="#"><i class="fas fa-book"></i>Sổ tay</a>
                 <a href="#"><i class="fab fa-bitcoin"></i>Tài khoản kinh doanh</a>
@@ -360,8 +360,8 @@
                 </div>
             <img src="image/voucher.jpg" alt="" class="img-voucher">
             <div class="image_sidebar">
-                <img src="image/logo.png" alt="" class="img">
-                <a href="#"><p>SĂN VOUCHER CÙNG HAHALOLO</p></a>
+                <img src="image/logo.jpg" alt="" class="img">
+                <a href="#" ><p style = "margin-top:12px">SĂN VOUCHER CÙNG HAHALOLO</p></a>
             </div>
             </div>
 

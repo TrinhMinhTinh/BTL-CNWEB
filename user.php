@@ -19,7 +19,7 @@
             <div class="col-md-12 header">
                 <div class="header_logo">
                     <a href="hahalolo.html">
-                        <img src="image/logo.png" alt="" class="image_logohahalolo"></a>
+                        <img src="image/logo.jpg" alt="" class="image_logohahalolo"></a>
                     <div class="header_search">
                         <input type="text" class="header_input" placeholder="Tìm kiếm">
                         <i class="fas fa-search"></i>
