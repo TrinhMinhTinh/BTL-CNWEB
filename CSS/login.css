@@ -27,7 +27,7 @@ body{
   height: 60px;
   width: 60px;
 }
-.footer{
+.button{
   display: flex;
   position: absolute;
   top:200%;
@@ -36,7 +36,7 @@ body{
 }
 .button1{
   height: 40px;
-  width: 100px;
+  width: 150px;
   display: flex;
   align-items: center;
   border-radius: 20px;
@@ -46,12 +46,17 @@ body{
 .button2{
   display: flex;
   align-items: center;
-  width: 80px;
+  width: 120px;
   border-radius: 20px;
   background-color: white;
   margin-left: 20px;
   text-align: end;
   
+}
+.footer {
+ display: flex;
+  position: absolute;
+  top:215%
 }
 .center{
   position: absolute;
@@ -151,4 +156,23 @@ input[type="submit"]:hover{
 }
 .signup_link a:hover{
   text-decoration: underline;
+}
+.language-setting {
+  position: relative;
+  display: flex;
+  top:80%;
+  left: 61%;
+}
+.language-setting ul {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none; 
+  
+}
+.language-setting ul li{
+  margin:12px;
+}
+.language-setting ul li:hover{
+  color:#24a8d8;
 }
