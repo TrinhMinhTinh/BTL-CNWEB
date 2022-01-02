@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <link rel="stylesheet" href="CSS/style1.css">
+    <link rel="stylesheet" href="CSS/logout.css">
 </head>
 
 <body>
@@ -20,10 +20,6 @@
                 <div class="header_logo">
                     <a href="index.php">
                     <img src="image/logo.jpg" alt="" class="image_logohahalolo"></a>
-                    <div class="header_search">
-                        <input type="text" class="header_input" placeholder="Tìm kiếm">
-                        <i class="fas fa-search"></i>
-                    </div>
                 </div>
                 <ul class="header_menu ms-auto">
                     <li class="header_icon">
@@ -85,20 +81,14 @@
                 </ul>
                 <div class="header_right">
                     <button class="btn">
-                        <i class="fas fa-bell"></i>
-                    </button>
-                    <button class="btn">
-                        <i class="fas fa-user-friends"></i>
-                    </button>
-                    <button class="btn">
                         <i class="fas fa-shopping-cart"></i>
                     </button>
                     <button class="btn">
                         <i class="fas fa-wallet"></i>
                     </button>
                     <button class="btn" style="color:#24a8d8">
-                        <i class="fab fa-facebook-messenger"></i>
-                    </button class="btn">
+                    <a href="login.php" class="text-decoration-none link-primary"><i class="fab fa-facebook-messenger"></i></a>
+                    </button>
                     <div class="login" onclick="settingsMenuToggle()">
                         <img src="image/login.jpg" alt="" class="image_login">
                     </div>
@@ -106,18 +96,9 @@
 
             </div>
             <div class="settings-header">
-                <div class="user-profile">
-                    <a href="user.php"><img src="image/login.jpg"></a>
-                    <a href = "user.php" style = "text-decoration:none;"><p class="user-name">Hồ sơ của bạn</p></a>
-                    
-                </div>
                 <div class="setting-link">
                     <a href="#" class="text-decoration-none link-primary"><i class="fas fa-book"></i></a>
-                    <p>Sổ tay</p>
-                </div>
-                <div class="setting-link">
-                    <a href="#" class="text-decoration-none link-primary"><i class="fas fa-cog"></i></a>
-                    <p>Thiết lập riêng tư & bảo mật</p>
+                    <p>Quản lý đơn hàng</p>
                 </div>
                 <div class="setting-link">
                     <a href="#" class="text-decoration-none link-primary"><i class="far fa-moon"></i></a>
@@ -127,8 +108,8 @@
                     </div>
                 </div>
                 <div class="setting-link">
-                    <a href="logout.php" class="text-decoration-none link-primary"><i class="fas fa-sign-out-alt"></i></a>
-                    <a href = "logout.php" style = "text-decoration:none;"><p>Đăng xuất</p></a>
+                    <a href="login.php" class="text-decoration-none link-primary"><i class="fas fa-sign-in-alt"></i></a>
+                    <a href = "login.php" style = "text-decoration:none;"><p>Đăng nhập</p></a>
                 </div>
                 <div>
                     <hr>
@@ -149,17 +130,6 @@
 
         <!--Thân trái-->
         <div class="left-sidebar">
-            <div class="main_image">
-                <a href="user.php"><img src="image/login.jpg" alt=""><h5>Hồ sơ của bạn</h5></a>
-                <a href="#"><i class="fas fa-coins"></i>Đồng xu</a>
-                <a href="#"><i class="fas fa-book"></i>Sổ tay</a>
-                <a href="#"><i class="fab fa-bitcoin"></i>Tài khoản kinh doanh</a>
-                <a href="#"><i class="fas fa-wallet"></i>Tài khoản thanh toán</a>
-                <a href="#"><i class="fas fa-share-alt"></i>Chia sẻ</a>
-                <a href="#"><i class="fas fa-user-friends"></i>Bạn bè</a>
-                <a href="#"><i class="far fa-image"></i>Hình ảnh</a>
-                <a href="#"><i class="far fa-star"></i>Bookmarks</a>
-            </div>
             <div class="main_image2">
                 <a href="#"><img src="image/tetbaythoi.jpg" alt=""></a>   
             </div>
@@ -167,22 +137,7 @@
 
         <!--Thân giữa-->
         <div class="main-content">
-            <div class="write-post-container">
-                <div class="button">
-                    <span class="new">Tạo bài viết</span>
-                    <span class="share">Chia sẻ trải nghiệm</span>
-                </div>
-                <div class="user-profile">
-                    <a href="#"><img src="image/login.jpg"></a>
-                    <textarea rows="3" placeholder="Haha, hôm nay bạn thế nào?"></textarea>
-                </div>
-                <div class="add-post-links">
-                    <button><i class="far fa-image" style = "color:#24a8d8"></i>Ảnh/video</button>
-                    <button><i class="fas fa-map-marker-alt" style="color: #F64A64;"></i>Địa điểm</button>
-                    <button><i class="far fa-smile-beam" style="color: #E3A42E;"></i>Cảm xúc</button>
-                </div>
-            </div>
-            <div class="post-container">
+            <div class="write-post-container">      
                 <div class="post-row">
                     <div class="post-profile">
                         <a href="#"><img src="image/img1.jpg"></a>
@@ -196,6 +151,7 @@
                     <a href="#">Xem chi tiết</a>
                 </div>
             </div>
+            
             <div class="post-container">
                 <div class="post-row">
                     <div class="user-profile">
