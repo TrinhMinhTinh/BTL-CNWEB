@@ -5,26 +5,43 @@
     <meta charset="utf-8">
     <title>Animated Login Form | CodingNepal</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="stylesheet" href="CSS/signup.css">
   </head>
   <body>
     <div class="center">
-      <h1>Đăng Nhập</h1>
+      <h1>Đăng kí</h1>
       <form method="post">
+        <div class="txt_name">
+          <input type="text" required>
+          <span></span>
+          <label>Họ và tên</label>
+        </div>
         <div class="txt_field">
           <input type="text" required>
           <span></span>
-          <label>Email hoặc SĐT</label>
+          <label>Điện thoại hoặc Email</label>
         </div>
         <div class="txt_field">
           <input type="password" required>
           <span></span>
           <label>Mật khẩu</label>
         </div>
-        <div class="pass">Quên mật khẩu?</div>
-        <input type="submit" value="Đăng nhập">
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Xác nhận mật khẩu</label>
+        </div>
+        <input type="submit" value="Đăng ký">
+        <div class= "Police">
+        <span>Bằng cách nhấp vào Đăng ký, bạn đồng ý với</span>
+        <a href="https://help.hahalolo.com/hc/en-us/articles/360036291411-HAHALOLO-s-Terms-of-service">Điều khoản dịch vụ</a>,
+        <a href="https://help.hahalolo.com/hc/en-us/articles/360036293871-Data-Policy-and-Privacy">Chính sách dữ liệu</a>, 
+        <a href="https://help.hahalolo.com/hc/en-us/articles/360035943132-Cookies-Policy">Chính sách cookie</a>
+        <span>và </span>
+        <a href="https://help.hahalolo.com/hc/en-us/sections/360007197232-Community-Standards">Tiêu chuẩn cộng đồng của chúng tôi</a>
+        </div>
         <div class="signup_link">
-          Bạn chưa có tài khoản? <a href="signup.php">Đăng Kí</a>
+          Bạn đã có tài khoản? <a href="#">Đăng Nhập</a>
         </div>
       </form>
     </div>
@@ -42,10 +59,10 @@
       </div>
       <div class="button">
         <button class="button1">
-        <i class="fab fa-android" style="padding-left: 20px;"></i> <p style="padding-left: 13px;">Google Play</p>
+        <i class="fab fa-android" style="padding-left: 20px;"></i><p style="padding-left: 13px;"><a href="https://play.google.com/store/apps/details?id=com.hahalolo.android.social&hl=en" class="links">Google Play</a></p>
         </button>
         <button class="button2">
-        <i class="fab fa-apple" style="padding-left: 15px;"></i> <p style="padding-left: 11px;">App Store</p>
+        <i class="fab fa-apple" style="padding-left: 15px;"></i> <p style="padding-left: 11px;"><a href="https://apps.apple.com/us/app/hahalolo/id1437417120" class="links">App Store</a></p>
         </button>
       </div>
       <div class="footer">

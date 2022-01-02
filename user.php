@@ -27,7 +27,7 @@
                 </div>
                 <ul class="header_menu ms-auto">
                     <li class="header_icon">
-                        <a href="#">
+                        <a href="index.php">
                             <div class="header_iconwrap">
                                 <i class="fas fa-newspaper"></i>
                             </div>
@@ -94,11 +94,10 @@
                         <i class="fas fa-shopping-cart"></i>
                     </button>
                     <button class="btn">
-                        <i class="fas fa-wallet"></i>
+                        <a href="https://wallet.hahalolo.com/" style="color:#000000"><i class="fas fa-wallet"></i></a>
+                    <button class="btn">
+                        <a href="https://halome.com/"><i class="fab fa-facebook-messenger"></i></a>
                     </button>
-                    <button class="btn" style="color:#24a8d8">
-                        <i class="fab fa-facebook-messenger"></i>
-                    </button class="btn">
                     <div class="login" onclick="settingsMenuToggle()">
                         <img src="image/login.jpg" alt="" class="image_login">
                     </div>
@@ -128,7 +127,7 @@
                 </div>
                 <div class="setting-link">
                     <a href="logout.php" class="text-decoration-none link-primary"><i class="fas fa-sign-out-alt"></i></a>
-                    <a href = "logout.php" style = "text-decoration:none;"><p>Đăng xuất</p></a>
+                    <a href = "logout.php" style = "text-decoration:none"><p>Đăng xuất</p></a>
                 </div>
                 <div>
                     <hr>
