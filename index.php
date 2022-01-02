@@ -97,38 +97,40 @@
                         <a href="https://wallet.hahalolo.com/" style="color:#000000"><i class="fas fa-wallet"></i></a>
                     </button>
                     <button class="btn">
-                        <a href="https://halome.com/" style="color: #24a8d8;"><i class="fab fa-facebook-messenger"></i></a>
+                        <a href="https://halome.com/"><img src="image/messenger.png" alt=""></a>
                     </button>
                     <div class="login" onclick="settingsMenuToggle()">
-                        <img src="image/login.jpg" alt="" class="image_login">
+                        <img src="image/login.png" alt="" class="image_login">
                     </div>
                 </div>
 
             </div>
             <div class="settings-header">
                 <div class="user-profile">
-                    <a href="user.php"><img src="image/login.jpg"></a>
-                    <a href = "user.php" style = "text-decoration:none;"><p class="user-name">Hồ sơ của bạn</p></a>
-                    
+                    <a href="user.php"><img src="image/login.png"></a>
+                    <a href = "user.php" class="text-decoration-none link-primary" style="color:#212121"><p class="user-name">Hồ sơ của bạn</p></a> 
+                </div>
+                <div>
+                    <hr>
                 </div>
                 <div class="setting-link">
-                    <a href="#" class="text-decoration-none link-primary"><i class="fas fa-book"></i></a>
+                    <a href="#" class="text-decoration-none link-primary" style="color:#212121"><i class="fas fa-book"></i></a>
                     <p>Sổ tay</p>
                 </div>
                 <div class="setting-link">
-                    <a href="#" class="text-decoration-none link-primary"><i class="fas fa-cog"></i></a>
+                    <a href="#" class="text-decoration-none link-primary" style="color:#212121"><i class="fas fa-cog"></i></a>
                     <p>Thiết lập riêng tư & bảo mật</p>
                 </div>
                 <div class="setting-link">
-                    <a href="#" class="text-decoration-none link-primary"><i class="far fa-moon"></i></a>
+                    <a href="#" class="text-decoration-none link-primary" style="color:#212121"><i class="far fa-moon"></i></a>
                     <p>Chế độ tối (Tắt)</p>
                     <div id="dark-btn">
                         <span></span>
                     </div>
                 </div>
-                <div class="setting-link">
-                    <a href="logout.php" class="text-decoration-none link-primary"><i class="fas fa-sign-out-alt"></i></a>
-                    <a href = "logout.php" style = "text-decoration:none"><p>Đăng xuất</p></a>
+                <div class="setting-link"> 
+                    <a href="logout.php" class="text-decoration-none link-primary" style="color:#212121"><i class="fas fa-sign-out-alt"></i></a>
+                    <a href = "logout.php" class="text-decoration-none link-primary" style="color:#212121"><p>Đăng xuất</p></a>
                 </div>
                 <div>
                     <hr>
@@ -150,7 +152,7 @@
         <!--Thân trái-->
         <div class="left-sidebar">
             <div class="main_image">
-                <a href="user.php"><img src="image/login.jpg" alt=""><h5>Hồ sơ của bạn</h5></a>
+                <a href="user.php"><img src="image/login.png" alt=""><h5>Hồ sơ của bạn</h5></a>
                 <a href="#"><i class="fas fa-coins"></i>Đồng xu</a>
                 <a href="#"><i class="fas fa-book"></i>Sổ tay</a>
                 <a href="#"><i class="fab fa-bitcoin"></i>Tài khoản kinh doanh</a>
@@ -174,11 +176,8 @@
                  <a href="#" style="font-size: 15px; color:#24a8d8 ;">Xem tất cả </a>
                 </div>
                 <hr>
-                <h5 style="font-size:17px">Chưa có lời mời kết bạn nào !</h5>
-
-                
+                <h5 style="font-size:17px">Chưa có lời mời kết bạn nào !</h5>  
             </div>
-            
         </div>
 
         <!--Thân giữa-->
@@ -189,7 +188,7 @@
                     <span class="share">Chia sẻ trải nghiệm</span>
                 </div>
                 <div class="user-profile">
-                    <a href="#"><img src="image/login.jpg"></a>
+                    <a href="#"><img src="image/login.png"></a>
                     <textarea rows="3" placeholder="Haha, hôm nay bạn thế nào?"></textarea>
                 </div>
                 <div class="add-post-links">
@@ -215,13 +214,13 @@
             <div class="post-container">
                 <div class="post-row">
                     <div class="user-profile">
-                        <a href="#"><img src="image/dantri.jpg"></a>
+                        <a href="#"><img src="image/dantri.png"></a>
                         <div>
                             <p>Dân trí</p>
                             <span>Thứ 2, 20/12/2021- 18:45</span>
                         </div>
                     </div>
-                    <a href="#"><button><i class="far fa-hand-peace"></i>Haha trang</button><i
+                    <a href="#" style="color:#212121"><button><i class="far fa-hand-peace"></i>Haha trang</button><i
                             class="fas fa-ellipsis-h"></i></a>
                 </div>
                 <p class="post-text">
@@ -249,14 +248,14 @@
                         <div><i class="fas fa-share"></i>980</div>
                     </div>
                     <div class="post-profile-icon">
-                        <img src="image/logo.png" alt="">
+                        <img src="image/logo.jpg" alt="">
                     </div>
                 </div>
                 <div>
                     <hr>
                 </div>
                 <div class="main-comment">
-                    <img src="image/login.jpg">
+                    <img src="image/login.png">
                     <input type="text" class="main-input" placeholder="Viết bình luận">
                     <a href="#" class="emoji"><i class="far fa-laugh-beam"></i></a>
                     <a href="#" class="picture"><i class="far fa-image"></i></a>
@@ -266,13 +265,13 @@
                 <div class="post-row">
 
                     <div class="user-profile">
-                        <a href="#"><img src="image/avatar.jpg"></a>
+                        <a href="#"><img src="image/avatar.png"></a>
                         <div>
                             <p>Lang Thang Đất Nước</p>
                             <span>3 ngày trước</span>
                         </div>
                     </div>
-                    <a href="#"><button><i class="far fa-hand-peace"></i>Haha trang</button><i
+                    <a href="#" style="color:#212121"><button><i class="far fa-hand-peace"></i>Haha trang</button><i
                             class="fas fa-ellipsis-h"></i></a>
                 </div>
                 <p class="post-text">Nếu du khách đã quá quen mặt với các địa điểm du lịch nổi tiếng, đông đúc thì có
@@ -292,14 +291,14 @@
                         <div><i class="fas fa-share"></i>60</div>
                     </div>
                     <div class="post-profile-icon">
-                        <img src="image/logo.png" alt="">
+                        <img src="image/logo.jpg" alt="">
                     </div>
                 </div>
                 <div>
                     <hr>
                 </div>
                 <div class="main-comment">
-                    <img src="image/login.jpg">
+                    <img src="image/login.png">
                     <input type="text" class="main-input" placeholder="Viết bình luận">
                     <a href="#" class="emoji"><i class="far fa-laugh-beam"></i></a>
                     <a href="#" class="picture"><i class="far fa-image"></i></a>
@@ -309,13 +308,13 @@
                 <div class="post-row">
 
                     <div class="user-profile">
-                        <a href="#"><img src="image/kenh13.png"></a>
+                        <a href="#"><img src="image/kenh14.png"></a>
                         <div>
                             <p>Kênh 14</p>
                             <span>1 ngày trước</span>
                         </div>
                     </div>
-                    <a href="#"><button><i class="far fa-hand-peace"></i>Haha trang</button><i
+                    <a href="#" style="color:#212121"><button><i class="far fa-hand-peace"></i>Haha trang</button><i
                             class="fas fa-ellipsis-h"></i></a>
                 </div>
                 <p class="post-text">
@@ -341,14 +340,14 @@
                         <div><i class="fas fa-share"></i>278</div>
                     </div>
                     <div class="post-profile-icon">
-                        <img src="image/logo.png" alt="">
+                        <img src="image/logo.jpg" alt="">
                     </div>
                 </div>
                 <div>
                     <hr>
                 </div>
                 <div class="main-comment">
-                    <img src="image/login.jpg">
+                    <img src="image/login.png">
                     <input type="text" class="main-input" placeholder="Viết bình luận">
                     <a href="#" class="emoji"><i class="far fa-laugh-beam"></i></a>
                     <a href="#" class="picture"><i class="far fa-image"></i></a>
@@ -373,6 +372,9 @@
                 <div class="sidebar-h4">
                     <h4>Trải nghiệm nổi bật </h4>
                     <a href="#">Xem Tất cả</a>
+                </div>
+                <div>
+                    <hr>
                 </div>
             <img src="image/voucher.jpg" alt="" class="img-voucher">
             <div class="image_sidebar">
@@ -409,7 +411,7 @@
                         <a href="#">Tiếp thị liên kết</a>
                     </li>
                 </ul>
-                <span class="copyright--text ">©️ Hahalolo 2017. Đã đăng ký bản quyền</span>
+                <span class="copyright--text">©️ Hahalolo 2017. Đã đăng ký bản quyền</span>
             </div>
 
         </div>

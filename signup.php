@@ -41,7 +41,7 @@
         <a href="https://help.hahalolo.com/hc/en-us/sections/360007197232-Community-Standards">Tiêu chuẩn cộng đồng của chúng tôi</a>
         </div>
         <div class="signup_link">
-          Bạn đã có tài khoản? <a href="#">Đăng Nhập</a>
+          Bạn đã có tài khoản? <a href="login.php">Đăng Nhập</a>
         </div>
       </form>
     </div>
@@ -82,3 +82,4 @@
 
   </body>
 </html>
+

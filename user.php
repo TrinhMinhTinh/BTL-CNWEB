@@ -99,14 +99,14 @@
                         <a href="https://halome.com/"><i class="fab fa-facebook-messenger"></i></a>
                     </button>
                     <div class="login" onclick="settingsMenuToggle()">
-                        <img src="image/login.jpg" alt="" class="image_login">
+                        <img src="image/login.png" alt="" class="image_login">
                     </div>
                 </div>
 
             </div>
             <div class="settings-header">
                 <div class="user-profile">
-                    <a href="user.php"><img src="image/login.jpg"></a>
+                    <a href="user.php"><img src="image/login.png"></a>
                     <p class="user-name">Hồ sơ của bạn</p>
                 </div>
                 
@@ -196,7 +196,7 @@
             <span class="share">Chia sẻ trải nghiệm</span>
         </div>
         <div class="user-profile">
-            <a href="#"><img src="image/login.jpg"></a>
+            <a href="#"><img src="image/login.png"></a>
             <textarea rows="3" placeholder="Haha, hôm nay bạn thế nào?"></textarea>
         </div>
         <div class="add-post-links">
