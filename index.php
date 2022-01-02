@@ -97,7 +97,7 @@
                         <a href="https://wallet.hahalolo.com/" style="color:#000000"><i class="fas fa-wallet"></i></a>
                     </button>
                     <button class="btn">
-                        <a href="https://halome.com/"><i class="fab fa-facebook-messenger"></i></a>
+                        <a href="https://halome.com/" style="color: #24a8d8;"><i class="fab fa-facebook-messenger"></i></a>
                     </button>
                     <div class="login" onclick="settingsMenuToggle()">
                         <img src="image/login.jpg" alt="" class="image_login">
@@ -163,6 +163,22 @@
             <div class="main_image2">
                 <a href="#"><img src="image/tetbaythoi.jpg" alt=""></a>   
             </div>
+            <div class="my-site">
+                <h6>Site của tôi(0)</h6>
+                <hr>
+                <button>Tạo trang cộng đồng</button>
+            </div>
+            <div class="friend-request">
+                <div class="top">
+                 <h6>Lời mời kết bạn</h6>
+                 <a href="#" style="font-size: 15px; color:#24a8d8 ;">Xem tất cả </a>
+                </div>
+                <hr>
+                <h5 style="font-size:17px">Chưa có lời mời kết bạn nào !</h5>
+
+                
+            </div>
+            
         </div>
 
         <!--Thân giữa-->

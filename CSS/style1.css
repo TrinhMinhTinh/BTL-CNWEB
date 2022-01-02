@@ -1,5 +1,5 @@
 :root{
-    --body-color: #FAFAFB;
+    --body-color:#F1F1F1;
     --main-color: #1876f2;
     --bg-color: #fff;
 }
@@ -87,11 +87,12 @@ body{
 }
 .header_icon i {
     font-size: 20px;
-    color: #000;
+    color: #525252;
+    
 }
 .header_icon a{
     text-decoration: none;
-    color: #000;
+    color: #525252;
 }
 
 .header_right {
@@ -122,6 +123,13 @@ body{
     z-index: 100;
     margin: auto;
 }
+.left-sidebar .main_image i{
+    font-size: 12px;
+}
+.left-sidebar .main_image a{
+    font-size: 17px;
+    color:#646464;
+}
 .left-sidebar{
    flex-basis: 25%;
    overflow: scroll;
@@ -144,6 +152,7 @@ body{
     flex-basis: 25%;
     overflow: scroll;
     height: 100%;
+    
 }
 .sidebar_picture {
     align-items: center;
@@ -182,7 +191,7 @@ body{
     background: rgb(255,254,252);
     border-radius: 5px;
     font-size: 20px;
-    height: 73vh;
+    height:53vh;
 
 }
 
@@ -626,6 +635,73 @@ body{
     top: 3px;
     left: 5px;
 }
+.my-site{
+    align-items: center;
+    justify-content: space-between;
+    height: 140px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.my-site button{
+    border-radius: 20px;
+    width: 250px;
+    height: 36px;
+    align-items: center;
+    margin-left: 35px ;
+    margin-top: 13px;
+    background-color: white;
+    color:#646464;
+}
+.my-site button:hover{
+    background-color:#C1BDBB;
+}
+.my-site h6{
+    text-align: start;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    color:#646464;
+}
+.friend-request{
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.friend-request .top {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.top{
+    margin-bottom: -10px;
+}
+.top h6{
+    text-align: start;
+    padding-top: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    color:#646464;
+}
+.top a{
+    margin-left: 50px;
+    padding-top: 8px;
+    text-decoration: none;
+}
+.top a:hover{
+   text-decoration: underline;
+    
+}
+.friend-request h5{
+    text-align: center;
+}
+
 
 
 
