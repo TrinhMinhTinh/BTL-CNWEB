@@ -666,6 +666,7 @@ body{
     padding: 10px 9px;
     color: rgb(0, 0, 0);
     font-size: 18px; 
+    color: var(--text-color);
 }
 .picture{
     top: 8px;
@@ -674,6 +675,7 @@ body{
     padding: 10px 9px;
     color: rgb(0, 0, 0);
     font-size: 18px; 
+    color: var(--text-color);
 }
 .main-input{
     outline: none;
@@ -685,7 +687,7 @@ body{
     width: 450px;	
     position: relative;
     top: 3px;
-    left: 5px;
+    left: 5px; 
 }
 .my-site{
     align-items: center;
@@ -694,7 +696,8 @@ body{
     width: 100%;
     background-color: white;
     border-radius: 5px;
-
+    background: var(--bg-color);
+    color: var(--text-color);
 }
 .my-site button{
     border-radius: 20px;
@@ -705,6 +708,8 @@ body{
     margin-top: 13px;
     background-color: white;
     color:#646464;
+    background: var(--bg-color);
+    color: var(--text-color);
 }
 .my-site button:hover{
     background-color:#C1BDBB;
@@ -715,6 +720,7 @@ body{
     margin-left: 20px;
     font-weight: bold;
     color:#646464;
+    color: var(--text-color);
 }
 .friend-request{
     align-items: center;
@@ -724,6 +730,8 @@ body{
     background-color: white;
     border-radius: 5px;
     margin-top: 20px;
+    background: var(--bg-color);
+    color: var(--text-color);
 }
 .friend-request .top {
     display: flex;
@@ -740,9 +748,10 @@ body{
     margin-left: 20px;
     font-weight: bold;
     color:#646464;
+    color: var(--text-color);
 }
 .top a{
-    margin-left: 50px;
+    margin-left: 70px;
     padding-top: 8px;
     text-decoration: none;
 }
@@ -751,6 +760,7 @@ body{
 }
 .friend-request h5{
     text-align: center;
+    margin-top: 30px;
 }
 
 
