@@ -153,6 +153,7 @@
                 <p>Web Designer &amp; Developer</p> 
 
             </div>
+            
         </div>
     </div>
 
