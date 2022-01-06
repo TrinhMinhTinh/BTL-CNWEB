@@ -146,12 +146,10 @@
     <div class="container-fluid row d-flex align-items-center d-flex justify-content-center">
     <div class="col-md-8">
         <!-- Column -->
-        <div class="card"> <img class="card-img-top" src="image/anh1.jpg" alt="Card image cap">
-            <div class="card-body little-profile text-center">
-                <div class="pro-img"><img src="image/anh2.jpg" alt="user"></div>
-                <h3 class="m-b-0">Brad Macullam</h3>
-                <p>Web Designer &amp; Developer</p> 
-
+        <div class="card"> <img class="card-img-top" src="image/anhnen.jpg" alt="Card image cap">
+            <div class="card-body little-profile text-center" style = "background:var(--bg-color)">
+                <div class="pro-img"><img src="image/avatar.png" alt="user"></div>
+                <h3 class="m-b-0" style = "color: var(--text-color)">Nam Long Tình</h3>  
             </div>
             
         </div>
