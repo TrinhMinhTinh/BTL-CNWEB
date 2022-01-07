@@ -10,7 +10,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="CSS/style1.css">
-    <link rel="stylesheet" href="CSS/user.css">
+    <link rel="stylesheet" href="CSS/users.css">
 </head>
 
 <body>
@@ -162,7 +162,7 @@
                 <div class="card-body little-profile text-center" style="background:var(--bg-color)">
                     <div class="pro-img"><img src="image/anhdaidien.jpg" alt="user"></div>
                     <h3 class="m-b-0" style="color: var(--text-color)">Nhóm 8</h3>
-                    <h3 class="m-b-0" style="color: var(--text-color)">(Tiến Nam, Hoành Long, Minh Tình)</h3>
+                    <h3 class="m-b-0" style="color: var(--text-color)">(Tiến Nam, Hoàng Long, Minh Tình)</h3>
                 </div>
         </div>
     </div>  
