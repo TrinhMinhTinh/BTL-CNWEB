@@ -384,31 +384,31 @@
             </div>
 
             <div class="copyright">
-                <ul class="copyright__list">
+                <ul class="copyright__list"> 
                     <li class="copyright__list-item">
-                        <a href="#">Giới thiệu</a>
+                        <a href="https://www.hahalolo.com/@HahaloloOfficial">Giới thiệu</a>
                     </li>
                     <li class="copyright__list-item">
-                        <a href="#">Quyền riêng tư</a>
+                        <a href="https://help.hahalolo.com/hc/vi/articles/360036293871">Quyền riêng tư</a>
                     </li>
                 </ul>
                <ul class="copyright__list">
                     <li class="copyright__list-item">
-                        <a href="#">Điều khoản</a>
+                        <a href="https://help.hahalolo.com/hc/vi/articles/360036291411">Điều khoản</a>
                     </li>
                     <li class="copyright__list-item">
-                        <a href="#">Cookie</a>
+                        <a href="https://help.hahalolo.com/hc/vi/articles/360035943132">Cookie</a>
                     </li>
                     <li class="copyright__list-item">
-                        <a href="#">Tuyển dụng</a>
+                        <a href="https://tuyendung.hahalolo.com/">Tuyển dụng</a>
                     </li>
                 </ul>
                 <ul class="copyright__list">
                     <li class="copyright__list-item">
-                        <a href="#">Hỗ trợ</a>
+                        <a href="https://help.hahalolo.com/hc/vi">Hỗ trợ</a>
                     </li>
                     <li class="copyright__list-item">
-                        <a href="#">Tiếp thị liên kết</a>
+                        <a href="https://affiliate.hahalolo.com/">Tiếp thị liên kết</a>
                     </li>
                 </ul>
                 <span class="copyright--text">©️ Hahalolo 2017. Đã đăng ký bản quyền</span>
