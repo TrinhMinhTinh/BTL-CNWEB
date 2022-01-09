@@ -177,7 +177,67 @@
                 </div>
                 <hr>
                 <h5 style="font-size:17px">Chưa có lời mời kết bạn nào !</h5>  
+                </div>
+                <div class = "weather">
+                    <div class="h-weather mt-3">
+            <div class="col-lg-4 col-6">
+                <div class="card" style="width: 297px; height: 495px; border-radius: 5px;border:none;">
+                    <div class="card-body">
+                        <h5 class="card-title h-location">Salavan, LA</h5>
+                        <h5 class="card-title h-day mt-3">Thứ 2, 06/12/2021</h5>
+                        <div class="h-cloud mt-3">
+                            <i class="bi bi-cloud-fill"></i>
+                            <div class="h-temperatures">
+                                <div class="h-temperature">
+                                    <h2 class="h-do"> 16 </h2>
+                                    <div class="h-CF">
+                                        <h5 class="h-C h-C-separate">°C </h5>
+                                        <h5 class="h-C">°F </h5>
+                                    </div>
+                                </div>
+                                <h5 class="h-status">Mây rải rác</h5>
+                            </div>
+                        </div>
+                        <div class="generality">
+                            <ul class="generality_list">
+                                <li class="generality_list-item">
+                                    <a>Khoảng nhiệt</a>
+                                    <span>20°C - 20°C</span>
+                                </li>
+                                <li class="generality_list-item">
+                                    <a>Tốc độ gió</a>
+                                    <span>2.82m/s</span>
+                                </li>
+                                <li class="generality_list-item">
+                                    <a>Lượng mưa</a>
+                                    <span>1.57mm</span>
+                                </li>
+                            </ul>
+                            <ul class="generality_list">
+                                <li class="generality_list-item">
+                                    <a ">Độ ẩm</a>
+                                    <span>78%</span>
+                                </li>
+                                <li class="generality_list-item">
+                                    <a>Khả năng mưa</a>
+                                    <span>100%</span>
+                                </li>
+                                <li class="generality_list-item">
+                                    <a>Bình Minh</a>
+                                    <span>06:16 AM</span>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <span class="generality-text">
+                            Cập nhật lúc 06:50 PM. OpenWeather
+                        </span>
+                    </div>
+                </div>
             </div>
+        </div>
+                </div>
+
         </div>
 
         <!--Thân giữa-->
