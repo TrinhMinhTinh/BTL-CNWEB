@@ -156,7 +156,7 @@
     </header>
 
     <div class="container-fluid row d-flex align-items-center d-flex justify-content-center">
-        <div class="col-md-11">
+        <div class="col-md-10">
             <!-- Column -->
             <div class="card"> <img class="card-img-top" src="image/anhnen.jpg" alt="Card image cap">
                 <div class="card-body little-profile text-center" style="background:var(--bg-color)">

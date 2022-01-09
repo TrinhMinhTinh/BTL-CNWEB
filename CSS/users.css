@@ -150,7 +150,7 @@ p {
     color: var(--text-color);
 }
 .lane a{
-    margin-left: 120px;
+    margin-left: 110px;
     padding-top: 8px;
     text-decoration: none;
 }
@@ -229,7 +229,7 @@ p {
     color: var(--text-color);
 }
 .friendly a{
-    margin-left: 70px;
+    margin-left: 65px;
     padding-top: 8px;
     text-decoration: none;
 }
@@ -330,3 +330,17 @@ p {
     text-align: center;
     margin-top: 25px;
 }
+.main-content{
+    flex-basis: 56%;
+}
+.left-sidebar{
+    flex-basis: 33%;
+    height: 100%;
+    margin-left: 60px;
+ }
+.right-sidebar{
+    flex-basis: 33%;
+    height: 100%;
+    margin-right: 60px;
+}
+
