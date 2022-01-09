@@ -140,8 +140,7 @@ body{
     margin: auto;
 }
 .left-sidebar{
-   flex-basis: 25%;
-   overflow: scroll;
+   flex-basis: 37%;
    height: 100%;
 }
 .left-sidebar::-webkit-scrollbar{
@@ -158,8 +157,7 @@ body{
     border-radius: 10px;
 }
 .right-sidebar{
-    flex-basis: 25%;
-    overflow: scroll;
+    flex-basis: 37%;
     height: 100%;
 }
 .sidebar_picture {
