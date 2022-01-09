@@ -140,7 +140,9 @@ body{
     margin: auto;
 }
 .left-sidebar{
-   flex-basis: 37%;
+   flex-basis: 25%;
+   margin-left: 25px;
+   margin-right: 20px;
    height: 100%;
 }
 .left-sidebar::-webkit-scrollbar{
@@ -157,8 +159,10 @@ body{
     border-radius: 10px;
 }
 .right-sidebar{
-    flex-basis: 37%;
+    flex-basis: 30%;
     height: 100%;
+    margin-left: 20px;
+    margin-right: 25px;
 }
 .sidebar_picture {
     align-items: center;
@@ -187,7 +191,7 @@ body{
 }
 
 .main-content{
-    flex-basis: 47%;
+    flex-basis: 55%;
 }
 .main_image{
     align-items: center;
