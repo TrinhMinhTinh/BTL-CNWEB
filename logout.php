@@ -18,12 +18,12 @@
         <div class="row">
             <div class="col-md-12 header">
                 <div class="header_logo">
-                    <a href="index.php">
+                    <a href="logout.php">
                     <img src="image/logo.jpg" alt="" class="image_logohahalolo"></a>
                 </div>
                 <ul class="header_menu ms-auto">
                     <li class="header_icon">
-                        <a href="index.php">
+                        <a href="logout.php">
                             <div class="header_iconwrap">
                                 <i class="fas fa-newspaper"></i>
                             </div>
@@ -81,10 +81,10 @@
                 </ul>
                 <div class="header_right">
                     <button class="btn">
-                        <i class="fas fa-shopping-cart"></i>
+                        <a href="login.php" style="color:#303030"><i class="fas fa-shopping-cart"></i></a>
                     </button>
                     <button class="btn">
-                        <i class="fas fa-wallet"></i>
+                        <a href="login.php" style="color:#303030"><i class="fas fa-wallet"></i></a>
                     </button>
                     <button class="btn" style="color:#24a8d8">
                     <a href="login.php" class="text-decoration-none link-primary"><img src="image/messenger.png" alt=""></a>

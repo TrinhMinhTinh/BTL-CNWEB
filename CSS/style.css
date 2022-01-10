@@ -140,7 +140,7 @@ body{
     margin: auto;
 }
 .left-sidebar{
-   flex-basis: 25%;
+   flex-basis: 30%;
    margin-left: 25px;
    margin-right: 20px;
    height: 100%;
@@ -552,7 +552,7 @@ body{
     position: absolute;
     width: 90%;
     max-width: 320px;
-    height: 500px;
+    height: 380px;
     background: var(--bg-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     border-radius: 4px;
@@ -574,7 +574,6 @@ body{
 .setting-link{
     display: flex;
     padding-left: 15px;
-    padding-top: 20px;
 }
 .setting-link p{
     font-weight: 500;
@@ -600,7 +599,7 @@ body{
 }
 #dark-btn{
     position:absolute;
-    top: 275px;
+    top: 215px;
     right: 30px;
     background: #ccc;
     width: 45px;
