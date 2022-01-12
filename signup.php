@@ -10,28 +10,28 @@
   <body>
     <div class="center">
       <h1>Đăng kí</h1>
-      <form method="post">
+      <form class="form-signin" action="process-signup.php" method="post">
         <div class="txt_name">
-          <input type="text" required>
+        <input type="text" id="txtUser" name="txtUser" class="form-control" required autofocus>
           <span></span>
           <label>Họ và tên</label>
         </div>
         <div class="txt_field">
-          <input type="text" required>
+        <input type="email" id="inputEmail" name="txtEmail" class="form-control" required autofocus>
           <span></span>
           <label>Điện thoại hoặc Email</label>
         </div>
         <div class="txt_field">
-          <input type="password" required>
+        <input type="password" id="inputPassword" name="txtPass1" class="form-control" required>
           <span></span>
           <label>Mật khẩu</label>
         </div>
         <div class="txt_field">
-          <input type="password" required>
+        <input type="password" id="inputRetypePassword" name="txtPass2" class="form-control" required>
           <span></span>
           <label>Xác nhận mật khẩu</label>
         </div>
-        <input type="submit" value="Đăng ký">
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="btnSignUp" >Đăng kí</button>
         <div class= "Police">
         <span>Bằng cách nhấp vào Đăng ký, bạn đồng ý với</span>
         <a href="https://help.hahalolo.com/hc/en-us/articles/360036291411-HAHALOLO-s-Terms-of-service">Điều khoản dịch vụ</a>,

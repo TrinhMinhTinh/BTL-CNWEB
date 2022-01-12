@@ -10,19 +10,19 @@
   <body>
     <div class="center">
       <h1>Đăng Nhập</h1>
-      <form method="post">
+      <form action="process_login.php" method="post" name="login" onsubmit="return">
         <div class="txt_field">
-          <input type="text" required>
+        <input type="email" id="inputEmail" name="txtEmail" class="form-control" required autofocus>
           <span></span>
-          <label>Email hoặc SĐT</label>
+          <label for="inputEmail" class="sr-only">Email hoặc SĐT</label>
         </div>
         <div class="txt_field">
-          <input type="password" required>
+        <input type="password" id="inputPassword" name="txtPass" class="form-control" required>
           <span></span>
-          <label>Mật khẩu</label>
+          <label for="inputPassword" class="sr-only">Mật Khẩu</label>
         </div>
         <div class="pass">Quên mật khẩu?</div>
-        <input type="submit" value="Đăng nhập">
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="btnSignIn" >Đăng nhập</button>
         <div class="signup_link">
           Bạn chưa có tài khoản? <a href="signup.php">Đăng Kí</a>
         </div>
