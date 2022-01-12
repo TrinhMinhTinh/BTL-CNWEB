@@ -1,6 +1,4 @@
 <?php
-    // Trước khi cho người dùng xâm nhập vào bên trong
-    // Phải kiểm tra THẺ LÀM VIỆC
     session_start();
     if(!isset($_SESSION['isLoginOK'])){
         header("location:login.php");
@@ -188,7 +186,7 @@
                 <div class = "weather">
                     <div class="h-weather mt-3">
             <div class="col-lg-4 col-6">
-                <div class="card" style="width: 297px; height: 495px; border-radius: 5px;border:none;">
+                <div class="card" style="width: 320px; height: 495px; border-radius: 5px;border:none; background:var(--bg-color); color:var(--text-color)">
                     <div class="card-body">
                         <h5 class="card-title h-location">Salavan, LA</h5>
                         <h5 class="card-title h-day mt-3">Thứ 2, 06/12/2021</h5>

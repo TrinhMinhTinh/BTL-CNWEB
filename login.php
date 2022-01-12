@@ -14,15 +14,15 @@
         <div class="txt_field">
         <input type="email" id="inputEmail" name="txtEmail" class="form-control" required autofocus>
           <span></span>
-          <label for="inputEmail" class="sr-only">Email hoặc SĐT</label>
+          <label for="inputEmail">Email hoặc SĐT</label>
         </div>
         <div class="txt_field">
         <input type="password" id="inputPassword" name="txtPass" class="form-control" required>
           <span></span>
-          <label for="inputPassword" class="sr-only">Mật Khẩu</label>
+          <label for="inputPassword">Mật Khẩu</label>
         </div>
         <div class="pass">Quên mật khẩu?</div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit" name="btnSignIn" >Đăng nhập</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="btnSignIn">Đăng nhập</button>
         <div class="signup_link">
           Bạn chưa có tài khoản? <a href="signup.php">Đăng Kí</a>
         </div>
@@ -42,10 +42,10 @@
       </div>
       <div class="button">
         <button class="button1">
-        <i class="fab fa-android" style="padding-left: 20px;"></i> <p style="padding-left: 13px;">Google Play</p>
+        <i class="fab fa-android" style="padding-left: 20px;"></i> <p style="padding-left: 13px;"><a href="https://play.google.com/store/apps/details?id=com.hahalolo.android.social&hl=en" class="links">Google Play</a></p>
         </button>
         <button class="button2">
-        <i class="fab fa-apple" style="padding-left: 15px;"></i> <p style="padding-left: 11px;">App Store</p>
+        <i class="fab fa-apple" style="padding-left: 15px;"></i> <p style="padding-left: 11px;"><a href="https://apps.apple.com/us/app/hahalolo/id1437417120" class="links">App Store</a></p>
         </button>
       </div>
       <div class="footer">

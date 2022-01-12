@@ -30,9 +30,7 @@ body{
 .button{
   display: flex;
   position: absolute;
-  top:200%;
-  
-
+  top:185%;
 }
 .button1{
   height: 40px;
@@ -41,7 +39,6 @@ body{
   align-items: center;
   border-radius: 20px;
   background-color: white;
-  
 }
 .button2{
   display: flex;
@@ -56,7 +53,7 @@ body{
 .footer {
  display: flex;
   position: absolute;
-  top:215%
+  top:200%;
 }
 .center{
   position: absolute;
@@ -160,7 +157,7 @@ input[type="submit"]:hover{
 .language-setting {
   position: relative;
   display: flex;
-  top:80%;
+  top:90%;
   left: 61%;
 }
 .language-setting ul {
@@ -176,4 +173,7 @@ input[type="submit"]:hover{
 .language-setting ul li:hover{
   color:#24a8d8;
 }
-.language-setting
+.links{
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
