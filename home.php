@@ -136,8 +136,8 @@
                     </div>
                 </div>
                 <div class="setting-link"> 
-                    <a href="logout.php" class="text-decoration-none link-primary" style="color:#212121"><i class="fas fa-sign-out-alt"></i></a>
-                    <a href = "logout.php" class="text-decoration-none link-primary" style="color:#212121"><p>Đăng xuất</p></a>
+                    <a href="#" class="text-decoration-none link-primary" style="color:#212121"><i class="fas fa-sign-out-alt"></i></a>
+                    <a href = "#" class="text-decoration-none link-primary" style="color:#212121"><p>Đăng xuất</p></a>
                 </div>
                 <div>
                     <hr>
