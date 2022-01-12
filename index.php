@@ -1,11 +1,6 @@
-<?php
-    session_start();
-    if(!isset($_SESSION['isLoginOK'])){
-        header("location:login.php");
-    }  
-?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -134,8 +129,8 @@
                     </div>
                 </div>
                 <div class="setting-link"> 
-                    <a href="#" class="text-decoration-none link-primary" style="color:#212121"><i class="fas fa-sign-out-alt"></i></a>
-                    <a href = "#" class="text-decoration-none link-primary" style="color:#212121"><p>Đăng xuất</p></a>
+                    <a href="home.php" class="text-decoration-none link-primary" style="color:#212121"><i class="fas fa-sign-out-alt"></i></a>
+                    <a href = "home.php" class="text-decoration-none link-primary" style="color:#212121"><p>Đăng xuất</p></a>
                 </div>
                 <div>
                     <hr>
@@ -186,7 +181,7 @@
                 <div class = "weather">
                     <div class="h-weather mt-3">
             <div class="col-lg-4 col-6">
-                <div class="card" style="width: 320px; height: 495px; border-radius: 5px;border:none; background:var(--bg-color); color:var(--text-color)">
+                <div class="card" style="width: 297px; height: 495px; border-radius: 5px;border:none;">
                     <div class="card-body">
                         <h5 class="card-title h-location">Salavan, LA</h5>
                         <h5 class="card-title h-day mt-3">Thứ 2, 06/12/2021</h5>
@@ -308,7 +303,10 @@
                 </div>
                 <div class="post-row">
                     <div class="activity-icon">
-                        <div><i class="far fa-thumbs-up"></i>9,6K</div>
+                        <a class="like__btn" style="text-decoration:none; color: #000; font-size: 16px;">
+                           <span id="icon"><i class="far fa-thumbs-up" ></i></span>
+                           <span id="count">978</span>
+                        </a>
                         <div><i class="far fa-comments"></i>1,2K</div>
                         <div><i class="fas fa-share"></i>980</div>
                     </div>
@@ -351,7 +349,10 @@
                 </div>
                 <div class="post-row">
                     <div class="activity-icon">
-                        <div><i class="far fa-thumbs-up"></i>989</div>
+                        <a class="like__btn" style="text-decoration:none; color: #000; font-size: 16px;">
+                           <span id="icon"><i class="far fa-thumbs-up" ></i></span>
+                           <span id="count">978</span>
+                        </a>
                         <div><i class="far fa-comments"></i>110</div>
                         <div><i class="fas fa-share"></i>60</div>
                     </div>
@@ -400,7 +401,10 @@
                 </div>
                 <div class="post-row">
                     <div class="activity-icon">
-                        <div><i class="far fa-thumbs-up"></i>8,9K</div>
+                        <a class="like__btn" style="text-decoration:none; color: #000; font-size: 16px;">
+                           <span id="icon"><i class="far fa-thumbs-up" ></i></span>
+                           <span id="count">231</span>
+                        </a>
                         <div><i class="far fa-comments"></i>970</div>
                         <div><i class="fas fa-share"></i>278</div>
                     </div>
@@ -486,6 +490,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="JS/script.js"></script>
+    <script src="JS/like.js"></script>
 </body>
 
 </html>
