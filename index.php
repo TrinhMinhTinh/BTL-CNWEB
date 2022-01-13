@@ -1,7 +1,7 @@
 <?php
     session_start();
-    if(!isset($_SESSION['isLoginOK'])){
-        header("location:index.php");
+    if(!isset($_SESSION['isHomeOK'])){
+        header("location:home.php");
     }  
 ?>
 <!DOCTYPE html>
