@@ -35,7 +35,10 @@
     }
       
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> aaa4b8a0de792f95a3f94c6522209cc2add24cbe
         mysqli_close($conn);
 }
 ?>
