@@ -308,9 +308,9 @@
                 </div>
                 <div class="post-row">
                     <div class="activity-icon">
-                        <div><i class="far fa-thumbs-up"></i>9,6K</div>
-                        <div><i class="far fa-comments"></i>1,2K</div>
-                        <div><i class="fas fa-share"></i>980</div>
+                        <a onclick="Toggle1()"  id="btnh1" class="btn"><i class="far fa-grin-squint-tears"style="padding-left:20px;padding-right:9px"></i>Haha</a>
+                        <div><i class="far fa-comments"></i>Bình Luận</div>
+                        <div><i class="fas fa-share"></i>Chia Sẻ</div>
                     </div>
                     <div class="post-profile-icon">
                         <img src="image/logo.jpg" alt="">
@@ -351,9 +351,9 @@
                 </div>
                 <div class="post-row">
                     <div class="activity-icon">
-                        <div><i class="far fa-thumbs-up"></i>989</div>
-                        <div><i class="far fa-comments"></i>110</div>
-                        <div><i class="fas fa-share"></i>60</div>
+                        <a onclick="Toggle2()"  id="btnh2" class="btn"><i class="far fa-grin-squint-tears"style="padding-left:20px;padding-right:9px"></i>Haha</a>
+                        <div><i class="far fa-comments"></i>Bình Luận</div>
+                        <div><i class="fas fa-share"></i>Chia Sẻ</div>
                     </div>
                     <div class="post-profile-icon">
                         <img src="image/logo.jpg" alt="">
@@ -400,9 +400,9 @@
                 </div>
                 <div class="post-row">
                     <div class="activity-icon">
-                        <div><i class="far fa-thumbs-up"></i>8,9K</div>
-                        <div><i class="far fa-comments"></i>970</div>
-                        <div><i class="fas fa-share"></i>278</div>
+                        <a onclick="Toggle3()"  id="btnh3" class="btn"><i class="far fa-grin-squint-tears"style="padding-left:20px;padding-right:9px"></i>Haha</a>
+                        <div><i class="far fa-comments"></i>Bình Luận</div>
+                        <div><i class="fas fa-share"></i>Chia Sẻ</div>
                     </div>
                     <div class="post-profile-icon">
                         <img src="image/logo.jpg" alt="">
@@ -487,6 +487,7 @@
         crossorigin="anonymous"></script>
     <script src="JS/script.js"></script>
     <script src="JS/like.js"></script>
+    <script src="JS/like2.js"></script>
 </body>
 
 </html>
