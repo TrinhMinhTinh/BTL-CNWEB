@@ -12,7 +12,7 @@
             die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
         }
         
-        $sql = "SELECT * FROM admin WHERE name = '$email' AND pass='$pass'";
+        $sql = "SELECT * FROM admin WHERE user_email = '$email' AND pass='$pass'";
         
         $result = mysqli_query($conn,$sql);
         if(mysqli_num_rows($result) > 0){

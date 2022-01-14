@@ -1,34 +1,39 @@
 <?php
+    // Trước khi cho người dùng xâm nhập vào bên trong
+    // Phải kiểm tra THẺ LÀM VIỆC
     session_start();
-    if(!isset($_SESSION['LoginOK'])){
+    if(!isset($_SESSION['isLoginOK'])){
         header("location:login.php");
     }
-   
-    if(isset($_POST['txtEmail'])){
-        $id = $_POST['txEmail'];
+    // Xử lý giá trị GỬI TỚI
+    if(isset($_POST['txtMaND'])){
+        $maNguoiDung = $_POST['txtMaND'];
     }
     if(isset($_POST['txtHoTen'])){
         $hoTen      = $_POST['txtHoTen'];
     }
-    $soDiDong       = $_POST['txtSoDiDong'];
     $email          = $_POST['txtEmail'];
+    $password       = $_POST['txtpassword'];
+
     
-    $conn = mysqli_connect('localhost','root','','hahalolo');
+    // Bước 01: Kết nối Database Server
+    $conn = mysqli_connect('localhost','root','','netflix');
     if(!$conn){
         die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
     }
-    $sql = "UPDATE users SET user_name ='$hoTen',user_phone = '$soDiDong', user_email='$email'' WHERE user_email = '$id'";
-   
+    // Bước 02: Thực hiện truy vấn
+    $sql = "UPDATE users SET fullname ='$hoTen', email='$email', password = '$password' WHERE id = '$maNguoiDung'";
+    // echo $sql;
 
     $ketqua = mysqli_query($conn,$sql);
     
     if(!$ketqua){
-        header("location: error.php"); 
+        header("location: error.php"); //Chuyển hướng lỗi
     }else{
-        header("location: admin.php");
+        header("location: admin.php"); //Chuyển hướng lại Trang Quản trị
     }
 
-   
+    // Bước 03: Đóng kết nối
     mysqli_close($conn);
 
 ?>

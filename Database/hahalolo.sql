@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 10, 2022 lúc 11:16 AM
+-- Thời gian đã tạo: Th1 14, 2022 lúc 02:29 PM
 -- Phiên bản máy phục vụ: 10.4.22-MariaDB
 -- Phiên bản PHP: 8.1.1
 
@@ -81,17 +81,19 @@ CREATE TABLE `users` (
   `user_img` varchar(256) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `user_email` varchar(60) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `user_phone` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `status_user` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `status_user` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `email_verification_link` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email_verified_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `users`
 --
 
-INSERT INTO `users` (`id_user`, `user_name`, `user_pass`, `user_avatar`, `user_img`, `user_email`, `user_phone`, `status_user`) VALUES
-('A1', 'Tien Nam', '123456A', '12A', 'A1', 'namtien.2610@gmail.com', '0869809004', 'Food'),
-('A2', 'Hoang Long', '123456B', '12B', 'A2', 'hoanglong100601@gmail.com', '0965591294', 'Go'),
-('A3', 'Minh Tinh', '123456C', '12C', 'A3', 'trinhminhtinh2907@gmail.com', '0366100901', 'Eat');
+INSERT INTO `users` (`id_user`, `user_name`, `user_pass`, `user_avatar`, `user_img`, `user_email`, `user_phone`, `status_user`, `email_verification_link`, `email_verified_at`) VALUES
+('A1', 'Tien Nam', '123456A', '12A', 'A1', 'namtien.2610@gmail.com', '0869809004', 'Food', '', NULL),
+('A2', 'Hoang Long', '123456B', '12B', 'A2', 'hoanglong100601@gmail.com', '0965591294', 'Go', '', NULL),
+('A3', 'Minh Tinh', '123456C', '12C', 'A3', 'trinhminhtinh2907@gmail.com', '0366100901', 'Eat', '', NULL);
 
 --
 -- Chỉ mục cho các bảng đã đổ

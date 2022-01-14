@@ -1,16 +1,20 @@
 <?php
     session_start();
-    if(!isset($_SESSION['LoginOK'])){
+    if(!isset($_SESSION['isLoginOK'])){
         header("location:login.php");
     }
-    $mail = $_GET['id'];
+    $ma_nguoidung = $_GET['id'];
     $conn = mysqli_connect('localhost','root','','hahalolo');
     if(!$conn){
         die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
     }
-    $sql = "SELECT * FROM users WHERE user_email = '$mail'";
+    $sql = "SELECT * FROM users WHERE id = '$ma_nguoidung'";
 
     $result = mysqli_query($conn,$sql);
+
+    if(mysqli_num_rows($result) > 0){
+        $row = mysqli_fetch_assoc($result);
+    }
     mysqli_close($conn);
 
 ?>
