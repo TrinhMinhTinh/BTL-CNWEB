@@ -17,12 +17,12 @@
         <div class="row">
             <div class="col-md-12 header">
                 <div class="header_logo">
-                    <a href="logout.php">
+                    <a href="index.php">
                     <img src="image/logo.jpg" alt="" class="image_logohahalolo"></a>
                 </div>
                 <ul class="header_menu ms-auto">
                     <li class="header_icon">
-                        <a href="logout.php">
+                        <a href="index.php">
                             <div class="header_iconwrap">
                                 <i class="fas fa-newspaper"></i>
                             </div>
@@ -413,8 +413,6 @@
     <script src="JS/script.js"></script>
 <<<<<<< HEAD
 =======
-    <script src="JS/like.js"></script>
-    <script src="JS/like2.js"></script>
->>>>>>> aaa4b8a0de792f95a3f94c6522209cc2add24cbe
+    add24cbe
 </body>
 </html>
