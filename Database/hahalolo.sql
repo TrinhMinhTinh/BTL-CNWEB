@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 14, 2022 lúc 06:55 PM
+-- Thời gian đã tạo: Th1 15, 2022 lúc 08:34 AM
 -- Phiên bản máy phục vụ: 10.4.22-MariaDB
 -- Phiên bản PHP: 8.1.1
 
@@ -33,17 +33,18 @@ CREATE TABLE `admin` (
   `id_user` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
   `status_user` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `id_post` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `user_email` varchar(60) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `user_email` varchar(60) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `id_admin` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `admin`
 --
 
-INSERT INTO `admin` (`name`, `pass`, `id_user`, `status_user`, `id_post`, `user_email`) VALUES
-('Hoang Long', '1234B', 'A2', 'Go', 'A11', 'hoanglong100601@gmail.com'),
-('Minh Tinh', '1234C', 'A3', 'Eat', 'A12', 'trinhminhtinh2907@gmail.com'),
-('Tien Nam', '1234A', 'A1', 'Food', 'A10', 'namtien.2610@gmail.com');
+INSERT INTO `admin` (`name`, `pass`, `id_user`, `status_user`, `id_post`, `user_email`, `id_admin`) VALUES
+('Hoang Long', '1234B', 'A2', 'Go', 'A11', 'hoanglong100601@gmail.com', 'B2'),
+('Minh Tinh', '1234C', 'A3', 'Eat', 'A12', 'trinhminhtinh2907@gmail.com', 'B3'),
+('Tien Nam', '1234A', 'A1', 'Food', 'A10', 'namtien.2610@gmail.com', 'B1');
 
 -- --------------------------------------------------------
 
@@ -55,17 +56,18 @@ CREATE TABLE `post` (
   `id_post` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
   `id_user` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `img_post` varchar(256) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `text_post` text COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `text_post` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `status_post` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `post`
 --
 
-INSERT INTO `post` (`id_post`, `id_user`, `img_post`, `text_post`) VALUES
-('A10', 'A1', 'beach1', 'b1'),
-('A11', 'A2', 'beach2', 'b2'),
-('A12', 'A3', 'beach3', 'b3');
+INSERT INTO `post` (`id_post`, `id_user`, `img_post`, `text_post`, `status_post`) VALUES
+('A10', 'A1', 'Du lịch', 'Lang thang đất nước', 'Đã đăng bài'),
+('A11', 'A2', 'Bảng thống kê Covid-19 ', 'Dân trí', 'Đã đăng bài'),
+('A12', 'A3', 'Kênh 14', 'Nội dung Spider-Man: No Way Home', 'Đã đăng bài');
 
 -- --------------------------------------------------------
 

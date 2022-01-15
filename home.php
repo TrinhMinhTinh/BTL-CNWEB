@@ -273,8 +273,7 @@
                         $postConnect = htmlspecialchars($_POST['post_infor']);
                         array_push($stack, $postConnect);
                         foreach ($stack as &$value) {
-                            echo "<div class='write-post-container'><h4>" . $value .  "</h4></div><br>";
-
+                            echo "<div class='write-post-container'><h3>Trịnh Minh Tình<br><h6>Ngày 20/10/2021 - 14h20</h6></h3><h4>" . $value .  "<hr><button>Haha</button><button>Bình luận</button><button>Chia Sẻ</button></h4></div><br>";
                         }
                     } else {
                         echo ""; 

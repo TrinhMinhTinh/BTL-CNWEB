@@ -17,7 +17,7 @@
             $_SESSION['isLoginOK'] = $email;
             header("location: home.php"); 
         }else{
-            $error = "Bạn nhập thông tin Email hoặc mật khẩu chưa chính xác";
+            $error= "Bạn nhập thông tin Email hoặc mật khẩu chưa chính xác";
             header("location: login.php?error=$error"); 
         }
 
