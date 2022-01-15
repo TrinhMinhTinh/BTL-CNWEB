@@ -18,7 +18,7 @@
         if(mysqli_num_rows($result) > 0){
            
             $_SESSION['LoginOK'] = $email;
-            header("location: admin.php"); 
+            header("location: add-admin.php"); 
         }else{
             $error = "Bạn nhập thông tin Email hoặc mật khẩu chưa chính xác";
             header("location: login.php?error=$error");

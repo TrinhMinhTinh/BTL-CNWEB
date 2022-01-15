@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 14, 2022 lúc 02:29 PM
+-- Thời gian đã tạo: Th1 14, 2022 lúc 06:55 PM
 -- Phiên bản máy phục vụ: 10.4.22-MariaDB
 -- Phiên bản PHP: 8.1.1
 
@@ -123,6 +123,13 @@ ALTER TABLE `users`
 --
 -- Các ràng buộc cho các bảng đã đổ
 --
+
+--
+-- Các ràng buộc cho bảng `admin`
+--
+ALTER TABLE `admin`
+  ADD CONSTRAINT `admin_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id_user`),
+  ADD CONSTRAINT `admin_ibfk_2` FOREIGN KEY (`id_post`) REFERENCES `post` (`id_post`);
 
 --
 -- Các ràng buộc cho bảng `post`

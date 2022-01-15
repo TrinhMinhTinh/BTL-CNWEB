@@ -1,7 +1,7 @@
 :root{
     --body-color:#F1F1F1;
     --main-color: #e7e7e7;
-    --bg-color: #fff;
+    --bg-color: rgb(255, 255, 255);
 }
 *{
     margin: 0;

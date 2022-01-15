@@ -1,17 +1,16 @@
 <?php
     session_start();
-    if(!isset($_SESSION['isLoginOK'])){
+    if(!isset($_SESSION['LoginOK'])){
         header("location:login.php");
     }
-    $ma_nguoidung = $_GET['id'];
+    $mail = $_GET['id'];
     $conn = mysqli_connect('localhost','root','','hahalolo');
     if(!$conn){
         die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
     }
-    $sql = "SELECT * FROM users WHERE id = '$ma_nguoidung'";
+    $sql = "SELECT * FROM users WHERE user_email = '$mail'";
 
     $result = mysqli_query($conn,$sql);
-
     if(mysqli_num_rows($result) > 0){
         $row = mysqli_fetch_assoc($result);
     }
@@ -36,23 +35,24 @@
         <form action="process-update.php" method="post">
             <div class="form-group">
                 <label for="txtMaND">Mã người dùng</label>
-                <input type="text" class="form-control" readonly id="txtMaND" name="txtMaND" value="<?php echo $row['id_user']; ?>">
+              <input type="text" class="form-control" readonly id="txtMaND" name="txtMaND" placeholder="Mã người dùng" value="<?php echo $row['id_user']; ?>">
             </div>
 
             <div class="form-group">
                 <label for="txtHoTen">Họ và tên</label>
-                <input type="text" class="form-control" id="txtHoTen" name="txtHoTen" value="<?php echo $row['user_name']; ?>">
+                <input type="text" class="form-control" id="txtHoTen" name="txtHoTen" placeholder="Mã họ tên" value="<?php echo $row['user_name']; ?>">
             </div>
             <div class="form-group">
                 <label for="txtSoDiDong">Số di động</label>
-                <input type="tel" class="form-control" id="txtSoDiDong" name="txtSoDiDong" value="<?php echo $row['user_phone']; ?>">
-            </div>   
+                <input type="tel" class="form-control" id="txtSoDiDong" name="txtSoDiDong" placeholder="Số điện thoại" value="<?php echo $row['user_phone']; ?>">
+            </div>
+            <div class="form-group">
+                <label for="txtPass">Mật khẩu</label>
+                <input type="text" class="form-control" id="txtPass" name="txtPass" placeholder="Mật khẩu" value="<?php echo $row['user_pass']; ?>">
+            </div>     
             <div class="form-group">
                 <label for="txtEmail">Email</label>
-                <input type="email" class="form-control" id="txtEmail" name="txtEmail" value="<?php echo $row['user_email']; ?>">
-            </div>   
-                </select>
-            </div>
+                <input type="email" class="form-control" id="txtEmail" name="txtEmail" placeholder="Địa chỉ Email" value="<?php echo $row['user_email']; ?>">
             <button type="submit" class="btn btn-primary mt-3">Lưu lại</button>
         </form>
     </div>    

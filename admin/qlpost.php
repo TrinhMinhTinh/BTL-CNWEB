@@ -20,14 +20,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="add-admin.php">Thêm Admin</a>
             </li>
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="admin.php">Quản lý người dùng</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="qlpost.php">Quản lý bài viết</a>
+            <a class="nav-link active" aria-current="page" href="#">Quản lý bài viết</a>
             </li>
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="login.php">Đăng xuất</a>
@@ -38,16 +38,15 @@
     </nav>
     <main>
         <div class="container">
-            <h5 class="text-center text-primary mt-5">QUẢN LÍ THÔNG TIN NGƯỜI DÙNG HAHALOLO</h5>
+            <h5 class="text-center text-primary mt-5">QUẢN LÍ THÔNG TIN BÀI VIẾT </h5>
             <table class="table">
                 <thead>
                     <tr>
+                        <th scope="col">Mã bài viết</th>
                         <th scope="col">Mã người dùng</th>
-                        <th scope="col">Tên người dùng</th>
-                        <th scope="col">Mật khẩu</th>       
-                        <th scope="col">Email</th>
-                        <th scope="col">Số điện thoại</th>
-                        <th scope="col">Sửa</th>
+                        <th scope="col">Ảnh</th>       
+                        <th scope="col">Tên bài viết</th>
+                        <th scope="col">Trạng thái bài viết</th>    
                         <th scope="col">Xóa</th>
                     </tr>
                 </thead>
@@ -59,20 +58,19 @@
                         if(!$conn){
                             die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
                         }
-                        $sql = "SELECT id_user, user_name, user_email, user_pass, user_phone from users" ;
+                        $sql = "SELECT id_post, id_user, img_post, text_post, status_post FROM post" ;
                         $result = mysqli_query($conn,$sql);
 
                         if(mysqli_num_rows($result) > 0){
                             while($row = mysqli_fetch_assoc($result)){
                     ?>
                     <tr>
-                                    <th scope="row"><?php echo $row['id_user']; ?></th>
-                                    <td><?php echo $row['user_name']; ?></td>
-                                    <td><?php echo $row['user_pass']; ?></td>
-                                    <td><?php echo $row['user_email']; ?></td>
-                                    <td><?php echo $row['user_phone']; ?></td>
-                                    <td><a href="update.php?id=<?php echo $row['user_email']; ?>"><i class="fas fa-pencil-alt"></i></a></td>
-                                    <td><a href="delete.php?id=<?php echo $row['user_email']; ?>"><i class="far fa-trash-alt"></i></a></td>
+                                    <th scope="row"><?php echo $row['id_post']; ?></th>
+                                    <td><?php echo $row['id_user']; ?></td>
+                                    <td><?php echo $row['img_post']; ?></td>
+                                    <td><?php echo $row['text_post']; ?></td>
+                                    <td><?php echo $row['status_post']; ?></td>
+                                    <td><a href="delete.php?id=<?php echo $row['id_post']; ?>"><i class="far fa-trash-alt"></i></a></td>
                                 </tr>
 
                     <?php

@@ -220,7 +220,7 @@
                             </ul>
                             <ul class="generality_list">
                                 <li class="generality_list-item">
-                                    <a ">Độ ẩm</a>
+                                    <a>Độ ẩm</a>
                                     <span>78%</span>
                                 </li>
                                 <li class="generality_list-item">

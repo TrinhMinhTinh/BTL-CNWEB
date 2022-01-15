@@ -14,7 +14,7 @@
         <form class="form-signin" action="process_login.php" method="post" name="login" onsubmit="return">
             
             <h1 class="h3 mb-3 font-weight-normal">Đăng nhập trang Admin</h1>
-            <label for="inputEmail" class="sr-only">Tên Admin</label>
+            <label for="inputEmail" class="sr-only">Email Admin</label>
             <input type="text" id="inputEmail" name ="txtEmail" class="form-control"  required autofocus>
             <label for="inputPassword" class="sr-only">Mật khẩu</label>
             <input type="password" id="inputPassword" name="txtPass" class="form-control"  required>
