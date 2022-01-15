@@ -246,22 +246,44 @@
         </div>
 
         <!--Thân giữa-->
-        <div class="main-content">
+       <div class="main-content">
+        <form method="post">
             <div class="write-post-container">
+           
                 <div class="button">
                     <span class="new">Tạo bài viết</span>
                     <span class="share">Chia sẻ trải nghiệm</span>
                 </div>
                 <div class="user-profile">
                     <a href="#"><img src="image/login.png"></a>
-                    <textarea rows="3" placeholder="Haha, hôm nay bạn thế nào?"></textarea>
+                   <textarea rows="3" id="post_infor" name="post_infor" placeholder="Haha, hôm nay bạn thế nào?"></textarea>
+                   <button class="btn btn-lg btn-primary btn-block" type="submit" name="btnPost" style ="height:50px;font-size:15px">Đăng </button>
                 </div>
                 <div class="add-post-links">
                     <button><i class="far fa-image" style = "color:#24a8d8"></i>Ảnh/video</button>
                     <button><i class="fas fa-map-marker-alt" style="color: #F64A64;"></i>Địa điểm</button>
                     <button><i class="far fa-smile-beam" style="color: #E3A42E;"></i>Cảm xúc</button>
                 </div>
+                
             </div>
+            <br>  
+            <?php 
+                    $stack = array();
+                    if(isset($_POST['btnPost'])){
+                        $postConnect = htmlspecialchars($_POST['post_infor']);
+                        array_push($stack, $postConnect);
+                        foreach ($stack as &$value) {
+                            echo "<div class='write-post-container'><h4>" . $value .  "</h4></div><br>";
+
+                        }
+                    } else {
+                        echo ""; 
+                    }
+                    
+
+                    ?>
+
+
             <div class="post-container">
                 <div class="post-row">
                     <div class="post-profile">
