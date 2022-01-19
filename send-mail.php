@@ -36,8 +36,8 @@ try {
     $mail->addAddress($email);    
     
     $mail->isHTML(true);                             
-    $mail->Subject = '[Netflix]Kích hoạt tài khoản của bạn';
-    $mail->Body    = 'Chào mừng bạn đến với Netflix.Để sử dụng tài khoản,'.$link;
+    $mail->Subject = 'Kích hoạt tài khoản của bạn';
+    $mail->Body    = 'Chào mừng bạn đến với Hahalolo. Để sử dụng tài khoản,'.$link;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
    if($mail->send()){
